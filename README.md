@@ -3,7 +3,7 @@
 [![](https://img.shields.io/github/stars/Nuozhu2333/SkyrimLibraryAndroid?style=for-the-badge)](https://github.com/Nuozhu2333/SkyrimLibraryAndroid)
 [![](https://img.shields.io/github/issues/Nuozhu2333/SkyrimLibraryAndroid?style=for-the-badge)](https://github.com/Nuozhu2333/SkyrimLibraryAndroid/issues)
 
-English | [简体中文](https://github.com/Nuozhu2333/SkyrimLibraryAndroid/blob/main/README_zh_Hans.md) | [繁體中文](https://github.com/Nuozhu2333/SkyrimLibraryAndroid/blob/main/README_zh_Hant.md)
+English | [简体中文](https://github.com/Nuozhu2333/SkyrimLibraryAndroid/blob/master/README_zh_Hans.md) | [繁體中文](https://github.com/Nuozhu2333/SkyrimLibraryAndroid/blob/master/README_zh_Hant.md)
 
 # Skyrim Library for Android
 **This repository hosts the Android app for Skyrim Library. For the main Skyrim Library project, please refer to [Skyrim Library](https://github.com/Nuozhu2333/SkyrimLibrary/).**
