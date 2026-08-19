@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    android:id="@+id/snackbar_root">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/general_margin"
+                android:orientation="vertical" >
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardview_random_book"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="@dimen/general_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/random_book_title"
+                                android:layout_margin="@dimen/general_margin"
+                                android:layout_marginBottom="0dp"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/random_book"
+                                android:textSize="22sp" />
+
+                            <com.google.android.material.card.MaterialCardView
+                                android:layout_margin="@dimen/general_margin"
+                                android:layout_marginBottom="0dp"
+                                android:layout_width="30sp"
+                                android:layout_height="30sp"
+                                android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                                app:cardCornerRadius="15sp"
+                                app:cardElevation="0dp"
+                                app:strokeWidth="0dp">
+
+                                <ImageButton
+                                    android:id="@+id/random"
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="@string/random_book"
+                                    app:srcCompat="@drawable/random" />
+                            </com.google.android.material.card.MaterialCardView>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/random_book"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="0dp"
+                            android:paddingBottom="@dimen/general_margin"
+                            android:paddingStart="@dimen/general_margin"
+                            android:paddingEnd="@dimen/general_margin"
+                            android:text=""
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/cardview_recent_book"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_margin="@dimen/general_margin">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/recent_book_title"
+                                android:layout_margin="@dimen/general_margin"
+                                android:layout_marginBottom="0dp"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="@string/recent_book"
+                                android:textSize="22sp" />
+
+                            <com.google.android.material.card.MaterialCardView
+                                android:layout_margin="@dimen/general_margin"
+                                android:layout_marginBottom="0dp"
+                                android:layout_width="30sp"
+                                android:layout_height="30sp"
+                                android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                                app:cardCornerRadius="15sp"
+                                app:cardElevation="0dp"
+                                app:strokeWidth="0dp">
+
+                                <ImageButton
+                                    android:id="@+id/recent"
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                                    android:background="@android:color/transparent"
+                                    android:contentDescription="@string/recent_book"
+                                    app:srcCompat="@drawable/arrow_forward" />
+                            </com.google.android.material.card.MaterialCardView>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/recent_book"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="0dp"
+                            android:paddingBottom="@dimen/general_margin"
+                            android:paddingStart="@dimen/general_margin"
+                            android:paddingEnd="@dimen/general_margin"
+                            android:text=""
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="16dp"
+        android:contentDescription="@string/search"
+        app:srcCompat="@drawable/search" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

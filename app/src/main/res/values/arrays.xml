@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="homepage_fab">
+        <item>Search</item>
+        <item>Random Book</item>
+        <item>Disabled</item>
+    </string-array>
+    <string-array name="homepage_fab_value">
+        <item>search</item>
+        <item>random_book</item>
+        <item>disabled</item>
+    </string-array>
+</resources>

@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Skyrim Library</string>
+    <string name="search">Search</string>
+    <string name="notice">Notice</string>
+    <string name="notice_content">Skyrim Library 2.0.1 has been released.
+        \nPlease check \"Settings - About Skyrim Library\" for details.
+    </string>
+    <string name="notice_action">Go to \"About Skyrim Library\"</string>
+    <string name="settings">Settings</string>
+    <string name="exit">Exit</string>
+    <string name="random_book">Random Book</string>
+    <string name="no_books_available">No Books Available</string>
+    <string name="recent_book">Recent Reading</string>
+    <string name="no_recent">No books read recently</string>
+    <string name="search_books">Enter book title to search</string>
+    <string name="book_list_updated">Book list updated</string>
+    <string name="close">Close</string>
+
+    <string name="previous_book">Previous Book</string>
+    <string name="next_book">Next Book</string>
+    <string name="book_info">Book Details</string>
+    <string name="book_info_title">Title: %1$s</string>
+    <string name="book_info_author">Author: %1$s</string>
+    <string name="book_info_language">Language: %1$s</string>
+    <string name="book_info_character_count">Characters: %1$s</string>
+    <string name="book_info_description">Description: %1$s</string>
+    <string name="share">Share</string>
+    <string name="restore_to_default">Default</string>
+    <string name="dungeon_name"><![CDATA[<Dungeon Name>]]></string>
+    <string name="location_name"><![CDATA[<Location Name>]]></string>
+    <string name="item_name"><![CDATA[<Item Name>]]></string>
+    <string name="NPC_name"><![CDATA[<NPC Name>]]></string>
+    <string name="Pronoun">They</string>
+    <string name="PronounPosObj">Their</string>
+    <string name="PronounObj">Them</string>
+    <string name="PronounRef">Themselves</string>
+    <string name="player_race"><![CDATA[<Player Race>]]></string>
+    <string name="player_gender"><![CDATA[<Player Gender>]]></string>
+
+    <string name="general">General</string>
+    <string name="homepage_fab">Floating Action Button</string>
+    <string name="dynamic_color">Dynamic Color</string>
+    <string name="dynamic_color_on">Use Dynamic Color</string>
+    <string name="dynamic_color_off">Use Preset Color</string>
+    <string name="dynamic_color_des">Dynamic Color requires Android 12 +. It will not take effect on devices running older versions of Android</string>
+    <string name="immersive_mode">Immersive Mode</string>
+    <string name="immersive_mode_on">Immersive mode is enabled in reading page</string>
+    <string name="immersive_mode_off">Immersive mode is disabled in reading page</string>
+    <string name="username">Username</string>
+    <string name="input_username">Enter username</string>
+    <string name="default_username">Dragonborn</string>
+    <string name="apply">Apply</string>
+    <string name="tips">Tips</string>
+    <string name="username_tips">Some books reference your character name. Set it here for a personalized experience.</string>
+    <string name="font_size">Font Size</string>
+    <string name="font_size_des">Adjust font size</string>
+    <string name="font_text_content">
+        <![CDATA[What takes the world in lightened sense
+        \nCan also seek the outward gleam
+        \nThey rob the all of essence to
+        \nReport the nothing they have seen
+        \n
+        \n<font=\"daedrascript\">AS FOR THE REST</font>
+        \n<font=\"daedrascript\">THE WEAK SHALL BE WINNOWED</font>
+        \n<font=\"daedrascript\">THE TIMID SHALL BE CAST DOWN</font>
+        \n<font=\"daedrascript\">THE MIGHTY SHALL TREMBLE AT MY FEET</font>
+        \n<font=\"daedrascript\">AND PRAY FOR PARDON</font>
+        \n
+        \n<font=\"dragonscript\">DOV4K3N DOV4K3N</font>
+        \n<font=\"dragonscript\">N1L OK ZIN LOS V4R3N</font>
+        \n<font=\"dragonscript\">W4 D2N VOKUL M4FAER1K 4ST V1L</font>
+        \n<font=\"dragonscript\">4RK FIN NOROK P1L GR1N</font>
+        \n<font=\"dragonscript\">FOD NUST HON ZINDRO Z1N</font>
+        \n<font=\"dragonscript\">DOV4K3N F4 HIN KOG1N MU DR1L</font>
+        \n
+        \n<font=\"dwemerscript\">Du chal fahl ngark che du fahl bthun ur</font>
+        \n<font=\"dwemerscript\">Du chal fahl ngalft che du fahl bthun ur</font>
+        \n
+        \n<font=\"falmerscript\">Nu hecta sou arcten rias nu nemalauta ge</font>
+        \n<font=\"falmerscript\">Nu hecta sou epegandra rias ne nemalauta ge</font>
+        ]]>
+    </string>
+    <string name="import_content">Import Content</string>
+    <string name="import_content_des">Import your own books from a JSON file</string>
+    <string name="about">About Skyrim Library</string>
+    <string name="version">Version: 2.0.1 (5)</string>
+    <string name="developer">Developer</string>
+    <string name="nuozhu">Nuozhu</string>
+    <string name="contact">Contact Me</string>
+    <string name="reminder">Reminder</string>
+    <string name="free_software">Free Software</string>
+    <string name="free_software_description">Skyrim Library is free software. Anyone can download and use it for free. If you paid for it, you\'ve been scammed! Please report the seller and demand a refund!</string>
+    <string name="independent_development">Independent Development</string>
+    <string name="independent_development_description">This app is not affiliated with Bethesda.\nNuozhu does not accept any donations. If you wish to support the original creators, please check the \"References\" page.</string>
+    <string name="thanks">Acknowledgments</string>
+    <string name="thanks_description">Skyrim Library would not be possible without the support of numerous The Elder Scrolls players. We would like to express our gratitude to all the players who have supported the development of this project.</string>
+    <string name="copyright">© Nuozhu 2023–2026</string>
+    <string name="official_website">Official Website</string>
+    <string name="official_website_des">Skyrim Library release page</string>
+    <string name="visit">Visit</string>
+    <string name="update_log">Update Log</string>
+    <string name="update_log_des">Check the update log for new features</string>
+    <string name="update_log_content">
+        1. Added immersive mode for the reading page.
+        \n2. Added support for Traditional Chinese (Hong Kong SAR) and English.
+        \n3. Test books are now available.
+    </string>
+    <string name="references">References</string>
+    <string name="references_des">Skyrim Library\'s development references these resources</string>
+
+    <string name="import_test_books">Use Test Books</string>
+    <string name="test_books_des">Test books are for verifying character display and formatting. They will replace your current library. Continue?</string>
+    <string name="action_cancelled">Operation cancelled</string>
+    <string name="action_failed">Something went wrong.</string>
+    <string name="invalid_json">Invalid JSON format</string>
+    <string name="empty_json">JSON file is empty</string>
+    <string name="invalid_book_index">Invalid book index: %s</string>
+    <string name="book_missing_fields">Book #%s is missing required fields</string>
+    <string name="unknown_error_occurred">An unknown error occurred</string>
+    <string name="import_succeed">Books imported successfully</string>
+    <string name="delete_imported_books">Delete Imported Books</string>
+    <string name="delete_imported_books_confirm">Delete all imported books and revert to the default library? This action cannot be undone!</string>
+    <string name="delete">Delete All</string>
+    <string name="deleted">	Imported books deleted successfully.</string>
+
+    <string name="email">Email</string>
+    <string name="tieba">Baidu Tieba</string>
+    <string name="bilibili">Bilibili</string>
+    <string name="hey_box">HeyBox</string>
+    <string name="related_links">Related Links</string>
+    <string name="tieba_sgjz">The Elder Scrolls Tieba</string>
+    <string name="UESP_Wiki">UESPWiki</string>
+    <string name="Fandom">Fandom Wiki</string>
+    <string name="Nexus_Mods">Nexus Mods</string>
+    <string name="Thuum.org">Thuum.org</string>
+
+    <string name="uses_of_AI">AI Technology Usage</string>
+    <string name="uses_of_AI_des">AI technology is utilized in Skyrim Library\'s development</string>
+    <string name="uninstall_message_title">Uninstall Skyrim Library?</string>
+    <string name="uninstall_message_content">Uninstalling will delete all your user data.\n\nNuozhu is not responsible for any data loss. Please ensure you have backed up any necessary data.</string>
+</resources>

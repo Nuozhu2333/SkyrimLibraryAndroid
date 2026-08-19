@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/about">
+
+        <Preference
+            android:icon="@drawable/info"
+            app:summary="@string/version"
+            app:title="@string/app_name" />
+
+        <Preference
+            android:key="download"
+            android:icon="@drawable/open"
+            app:summary="@string/official_website_des"
+            app:title="@string/official_website">
+        </Preference>
+
+        <Preference
+            android:key="update_log"
+            android:icon="@drawable/update_log"
+            app:summary="@string/update_log_des"
+            app:title="@string/update_log">
+        </Preference>
+
+        <Preference
+            android:key="references"
+            android:icon="@drawable/font_size"
+            app:title="@string/references"
+            app:summary="@string/references_des" >
+
+            <intent
+                android:action="com.nuozhu.skyrimlibrary.ReferencesActivity"
+                android:targetClass="com.nuozhu.skyrimlibrary.ReferencesActivity"
+                android:targetPackage="com.nuozhu.skyrimlibrary" />
+        </Preference>
+    </PreferenceCategory>
+</PreferenceScreen>

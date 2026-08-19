@@ -1,0 +1,111 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/general">
+
+        <Preference
+            android:key="homepage_fab"
+            android:defaultValue="search"
+            android:icon="@drawable/search"
+            android:title="@string/homepage_fab" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:icon="@drawable/color"
+            android:key="dynamic_color"
+            android:title="@string/dynamic_color"
+            app:summaryOn="@string/dynamic_color_on"
+            app:summaryOff="@string/dynamic_color_off"/>
+
+        <Preference
+            android:key="dynamic_color_des"
+            app:summary="@string/dynamic_color_des"
+            app:selectable="false"/>
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:icon="@drawable/immersive_mode"
+            android:key="immersive_mode"
+            android:title="@string/immersive_mode"
+            app:summaryOn="@string/immersive_mode_on"
+            app:summaryOff="@string/immersive_mode_off" />
+
+        <Preference
+            app:key="username"
+            android:icon="@drawable/contact"
+            android:title="@string/username">
+
+            <intent
+                android:action="com.nuozhu.skyrimlibrary.UsernameActivity"
+                android:targetClass="com.nuozhu.skyrimlibrary.UsernameActivity"
+                android:targetPackage="com.nuozhu.skyrimlibrary" />
+        </Preference>
+
+        <Preference
+            app:key="font_size"
+            android:icon="@drawable/font_size"
+            android:title="@string/font_size"
+            app:summary="@string/font_size_des">
+
+            <intent
+                android:action="com.nuozhu.skyrimlibrary.FontPreviewActivity"
+                android:targetClass="com.nuozhu.skyrimlibrary.FontPreviewActivity"
+                android:targetPackage="com.nuozhu.skyrimlibrary" />
+        </Preference>
+
+        <Preference
+            app:key="import_content"
+            android:icon="@drawable/import_content"
+            android:title="@string/import_content"
+            app:summary="@string/import_content_des">
+
+            <intent
+                android:action="com.nuozhu.skyrimlibrary.ImportContentActivity"
+                android:targetClass="com.nuozhu.skyrimlibrary.ImportContentActivity"
+                android:targetPackage="com.nuozhu.skyrimlibrary" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/about">
+        <Preference
+            android:icon="@drawable/info"
+            app:title="@string/about"
+            app:summary="@string/copyright">
+
+            <intent
+                android:action="com.nuozhu.skyrimlibrary.AboutActivity"
+                android:targetClass="com.nuozhu.skyrimlibrary.AboutActivity"
+                android:targetPackage="com.nuozhu.skyrimlibrary" />
+        </Preference>
+
+        <Preference
+            android:icon="@drawable/contact"
+            app:title="@string/developer"
+            app:summary="@string/nuozhu">
+
+            <intent
+                android:action="com.nuozhu.skyrimlibrary.ContactActivity"
+                android:targetClass="com.nuozhu.skyrimlibrary.ContactActivity"
+                android:targetPackage="com.nuozhu.skyrimlibrary" />
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/reminder">
+
+        <Preference
+            android:icon="@drawable/free"
+            app:summary="@string/free_software_description"
+            app:title="@string/free_software" />
+
+        <Preference
+            android:icon="@drawable/negative"
+            app:summary="@string/independent_development_description"
+            app:title="@string/independent_development" />
+
+        <Preference
+            android:icon="@drawable/thanks"
+            app:summary="@string/thanks_description"
+            app:title="@string/thanks" />
+    </PreferenceCategory>
+</PreferenceScreen>

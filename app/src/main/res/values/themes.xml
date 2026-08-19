@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.天际书库" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.天际书库" parent="Base.Theme.天际书库" />
+
+    <style name="Theme.天际书库.Immersive" parent="Base.Theme.天际书库" >
+        <item name="android:windowFullscreen">true</item>
+    </style>
+</resources>

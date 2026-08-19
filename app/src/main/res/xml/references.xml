@@ -1,0 +1,26 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/references">
+        <Preference
+            android:key="bilibili_wiki"
+            app:title="哔哩哔哩 Wiki"
+            app:summary="图书 - 上古卷轴5天际WIKI BWIKI 哔哩哔哩"
+            android:icon="@drawable/open">
+        </Preference>
+
+        <Preference
+            android:key="uesp"
+            app:title="UESP Wiki"
+            app:summary="UESP Wiki - The Unofficial Elder Scrolls Pages"
+            android:icon="@drawable/open">
+        </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/uses_of_AI">
+        <Preference
+            app:title="@string/uses_of_AI"
+            app:summary="@string/uses_of_AI_des"
+            android:icon="@drawable/thanks" />
+    </PreferenceCategory>
+</PreferenceScreen>

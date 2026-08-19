@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="search"
+        android:enabled="true"
+        android:icon="@drawable/shortcut_search"
+        android:shortcutShortLabel="@string/search"
+        android:shortcutLongLabel="@string/search"
+        android:shortcutDisabledMessage="@string/search">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.nuozhu.skyrimlibrary"
+            android:targetClass="com.nuozhu.skyrimlibrary.SearchActivity" />
+
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="recent_book"
+        android:enabled="true"
+        android:icon="@drawable/shortcut_history"
+        android:shortcutShortLabel="@string/recent_book"
+        android:shortcutLongLabel="@string/recent_book"
+        android:shortcutDisabledMessage="@string/recent_book">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.nuozhu.skyrimlibrary"
+            android:targetClass="com.nuozhu.skyrimlibrary.RecentActivity" />
+
+        <categories android:name="android.shortcut.conversation"/>
+    </shortcut>
+</shortcuts>

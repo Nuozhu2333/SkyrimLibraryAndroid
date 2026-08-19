@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:installLocation="auto">
+
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:name="android.hardware.touchscreen" />
+    <uses-feature android:name="android.hardware.ram.normal" />
+
+    <application
+        android:allowBackup="true"
+        android:enableOnBackInvokedCallback="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:localeConfig="@xml/locales_config"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.天际书库">
+        <meta-data
+            android:name="app_description_title"
+            android:resource="@string/uninstall_message_title" />
+        <meta-data
+            android:name="app_description_content"
+            android:resource="@string/uninstall_message_content" />
+
+        <activity
+            android:name=".ReferencesActivity"
+            android:exported="false"
+            android:label="@string/references"
+            android:theme="@style/Theme.天际书库" />
+        <activity
+            android:name=".ImportContentActivity"
+            android:exported="false"
+            android:label="@string/import_content"
+            android:theme="@style/Theme.天际书库" />
+        <activity
+            android:name=".RecentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactActivity"
+            android:exported="false"
+            android:label="@string/contact"
+            android:theme="@style/Theme.天际书库" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false"
+            android:label="@string/about"
+            android:theme="@style/Theme.天际书库" />
+        <activity
+            android:name=".UsernameActivity"
+            android:exported="false"
+            android:label="@string/username"
+            android:theme="@style/Theme.天际书库" />
+        <activity
+            android:name=".FontPreviewActivity"
+            android:exported="false"
+            android:label="@string/font_size"
+            android:theme="@style/Theme.天际书库" />
+        <activity
+            android:name=".BooksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false"
+            android:label="@string/search"
+            android:theme="@style/Theme.天际书库" />
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:label="@string/settings"
+            android:theme="@style/Theme.天际书库">
+            <intent-filter>
+                <action android:name="android.intent.action.APPLICATION_PREFERENCES" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.天际书库">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+        </activity>
+    </application>
+</manifest>

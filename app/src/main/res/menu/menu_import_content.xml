@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nuozhu.skyrimlibrary.ImportContentActivity">
+
+    <item
+        android:id="@+id/delete_imported_books"
+        android:title="@string/delete_imported_books"
+        android:icon="@drawable/close"
+        app:showAsAction="never" />
+</menu>

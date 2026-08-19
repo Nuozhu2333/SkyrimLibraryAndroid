@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">天際圖書館</string>
+    <string name="search">搜尋</string>
+    <string name="notice">公告</string>
+    <string name="notice_content">天際圖書館2.0.1已經發佈。
+        \n請在「設定-關於天際圖書館」中查看詳情。
+    </string>
+    <string name="notice_action">轉到「關於天際圖書館」</string>
+    <string name="settings">設定</string>
+    <string name="exit">退出</string>
+    <string name="random_book">隨機書籍</string>
+    <string name="no_books_available">沒有可用書籍</string>
+    <string name="recent_book">最近閱讀</string>
+    <string name="no_recent">最近沒有讀過任何書</string>
+    <string name="search_books">輸入書名以搜尋</string>
+    <string name="book_list_updated">書籍列表已更新</string>
+    <string name="close">關閉</string>
+
+    <string name="previous_book">上一本書</string>
+    <string name="next_book">下一本書</string>
+    <string name="book_info">書籍詳情</string>
+    <string name="book_info_title">標題：%1$s</string>
+    <string name="book_info_author">作者：%1$s</string>
+    <string name="book_info_language">語言：%1$s</string>
+    <string name="book_info_character_count">字元數：%1$s</string>
+    <string name="book_info_description">說明：%1$s</string>
+    <string name="share">分享</string>
+    <string name="restore_to_default">預設</string>
+    <string name="dungeon_name"><![CDATA[<地下城名稱>]]></string>
+    <string name="location_name"><![CDATA[<地點名稱>]]></string>
+    <string name="item_name"><![CDATA[<物品名稱>]]></string>
+    <string name="NPC_name"><![CDATA[<NPC 名稱>]]></string>
+    <string name="Pronoun">他（她）</string>
+    <string name="PronounPosObj">他（她）的</string>
+    <string name="PronounObj">他（她）</string>
+    <string name="PronounRef">他（她）自己</string>
+    <string name="player_race"><![CDATA[<玩家種族>]]></string>
+    <string name="player_gender"><![CDATA[<玩家性別>]]></string>
+
+    <string name="general">一般</string>
+    <string name="homepage_fab">首頁浮動按鈕</string>
+    <string name="dynamic_color">動態顏色</string>
+    <string name="dynamic_color_on">使用動態顏色</string>
+    <string name="dynamic_color_off">使用預設顏色</string>
+    <string name="dynamic_color_des">動態顏色僅適用於搭載 Android 12 或更高版本的裝置。如果系統版本低於 Android 12，動態顏色不會生效</string>
+    <string name="immersive_mode">沉浸模式</string>
+    <string name="immersive_mode_on">閱讀頁啟用沉浸模式</string>
+    <string name="immersive_mode_off">閱讀頁不啟用沉浸模式</string>
+    <string name="username">用戶名稱</string>
+    <string name="input_username">輸入用戶名稱</string>
+    <string name="default_username">龍裔</string>
+    <string name="apply">套用</string>
+    <string name="tips">提示</string>
+    <string name="username_tips">部分書籍使用了玩家的角色名稱。你可以在這裡自訂用戶名稱，以達到相似效果。</string>
+    <string name="font_size">字型大小</string>
+    <string name="font_size_des">調整字型大小</string>
+    <string name="font_text_content">
+        <![CDATA[從光明面看世界的人
+        \n亦能追尋外向的微光
+        \n他們剝除所有本質
+        \n告知所看見的虛無
+        \n
+        \nWhat takes the world in lightened sense
+        \nCan also seek the outward gleam
+        \nThey rob the all of essence to
+        \nReport the nothing they have seen
+        \n
+        \n<font=\"daedrascript\">AS FOR THE REST</font>
+        \n<font=\"daedrascript\">THE WEAK SHALL BE WINNOWED</font>
+        \n<font=\"daedrascript\">THE TIMID SHALL BE CAST DOWN</font>
+        \n<font=\"daedrascript\">THE MIGHTY SHALL TREMBLE AT MY FEET</font>
+        \n<font=\"daedrascript\">AND PRAY FOR PARDON</font>
+        \n
+        \n<font=\"dragonscript\">DOV4K3N DOV4K3N</font>
+        \n<font=\"dragonscript\">N1L OK ZIN LOS V4R3N</font>
+        \n<font=\"dragonscript\">W4 D2N VOKUL M4FAER1K 4ST V1L</font>
+        \n<font=\"dragonscript\">4RK FIN NOROK P1L GR1N</font>
+        \n<font=\"dragonscript\">FOD NUST HON ZINDRO Z1N</font>
+        \n<font=\"dragonscript\">DOV4K3N F4 HIN KOG1N MU DR1L</font>
+        \n
+        \n<font=\"dwemerscript\">Du chal fahl ngark che du fahl bthun ur</font>
+        \n<font=\"dwemerscript\">Du chal fahl ngalft che du fahl bthun ur</font>
+        \n
+        \n<font=\"falmerscript\">Nu hecta sou arcten rias nu nemalauta ge</font>
+        \n<font=\"falmerscript\">Nu hecta sou epegandra rias ne nemalauta ge</font>
+        ]]>
+    </string>
+    <string name="import_content">匯入內容</string>
+    <string name="import_content_des">匯入內容以支援更多書籍</string>
+    <string name="about">關於天際書庫</string>
+    <string name="version">版本：2.0.1 (5)</string>
+    <string name="developer">開發者</string>
+    <string name="nuozhu">糯竹</string>
+    <string name="contact">聯絡我</string>
+    <string name="reminder">提醒</string>
+    <string name="free_software">免費軟件</string>
+    <string name="free_software_description">天際圖書館是一個免費軟件，任何人都可以免費下載和使用。如果你是花錢買來的，說明你上當了！請投訴商家並要求退款！</string>
+    <string name="independent_development">獨立開發</string>
+    <string name="independent_development_description">此應用與 Bethesda 無關。\n糯竹不接受任何捐贈。若想支持原作者，請在「參考資料」頁面查看。</string>
+    <string name="thanks">鳴謝</string>
+    <string name="thanks_description">文本翻譯主要來自湯鑊漢化，也參考了 ANK 漢化、和光漢化、ESO 官方中文翻譯、大學漢化和蒹葭漢化，向漢化前輩們表示真摯的感謝，也感謝所有老滾玩家的支持！</string>
+    <string name="copyright">© 糯竹 2023–2026</string>
+    <string name="official_website">官方網站</string>
+    <string name="official_website_des">天際圖書館的發佈頁面</string>
+    <string name="visit">瀏覽</string>
+    <string name="update_log">更新日誌</string>
+    <string name="update_log_des">查看更新日誌以了解新功能</string>
+    <string name="update_log_content">
+        1. 新增了閱讀頁沉浸模式。
+        \n2. 新增了繁體中文（中國香港）和英文支援。
+        \n3. 現在可以使用測試書籍。
+    </string>
+    <string name="references">參考資料</string>
+    <string name="references_des">天際圖書館的開發參考了以下內容</string>
+
+    <string name="import_test_books">使用測試書籍</string>
+    <string name="test_books_des">測試書籍僅用於測試字元與排版是否正確，如無顯示問題則無需使用。\n此操作將取代現有書籍，是否繼續？</string>
+    <string name="action_cancelled">操作已取消</string>
+    <string name="action_failed">操作失敗！</string>
+    <string name="invalid_json">JSON 格式錯誤</string>
+    <string name="empty_json">JSON 檔案為空</string>
+    <string name="invalid_book_index">無效的書籍索引：%s</string>
+    <string name="book_missing_fields">書籍 #%s 缺少必要欄位</string>
+    <string name="unknown_error_occurred">發生未知錯誤</string>
+    <string name="import_succeed">書籍匯入成功</string>
+    <string name="delete_imported_books">刪除已匯入的書籍</string>
+    <string name="delete_imported_books_confirm">是否刪除所有已匯入的書籍，並使用預設書庫？此操作無法復原！</string>
+    <string name="delete">刪除</string>
+    <string name="deleted">刪除成功！</string>
+
+    <string name="email">電郵</string>
+    <string name="tieba">百度貼吧</string>
+    <string name="bilibili">嗶哩嗶哩</string>
+    <string name="hey_box">小黑盒</string>
+    <string name="related_links">友情連結</string>
+    <string name="tieba_sgjz">上古卷軸吧</string>
+    <string name="UESP_Wiki">UESPWiki</string>
+    <string name="Fandom">Fandom Wiki</string>
+    <string name="Nexus_Mods">Nexus Mods</string>
+    <string name="Thuum.org">Thuum.org</string>
+
+    <string name="uses_of_AI">AI 技術使用</string>
+    <string name="uses_of_AI_des">天際圖書館的開發使用了 AI 技術</string>
+    <string name="uninstall_message_title">你確定要解除安裝天際圖書館嗎？</string>
+    <string name="uninstall_message_content">解除安裝後，你將遺失所有用戶數據。\n\n糯竹不會為你的數據遺失承擔任何責任，請確保你已經備份所需的數據。</string>
+</resources>

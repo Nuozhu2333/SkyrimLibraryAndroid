@@ -1,0 +1,12 @@
+<resources>
+    <string-array name="homepage_fab">
+        <item>搜尋</item>
+        <item>隨機書籍</item>
+        <item>已禁用</item>
+    </string-array>
+    <string-array name="homepage_fab_value">
+        <item>search</item>
+        <item>random_book</item>
+        <item>disabled</item>
+    </string-array>
+</resources>

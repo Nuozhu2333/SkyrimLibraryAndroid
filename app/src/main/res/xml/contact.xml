@@ -1,0 +1,60 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/contact">
+
+        <Preference
+            android:icon="@drawable/email"
+            app:title="@string/email"
+            app:summary="1224555890@qq.com">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="mailto:1224555890@qq.com"/>
+        </Preference>
+
+        <Preference
+            android:icon="@drawable/open"
+            android:key="tieba"
+            app:title="@string/tieba"
+            app:summary="糯竹2333的贴吧"/>
+
+        <Preference
+            android:icon="@drawable/open"
+            android:key="bilibili"
+            app:title="@string/bilibili"
+            app:summary="糯竹的个人空间"/>
+
+        <Preference
+            android:icon="@drawable/open"
+            android:key="heybox"
+            app:title="@string/hey_box"
+            app:summary="@string/hey_box"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/related_links">
+
+        <Preference
+            android:icon="@drawable/open"
+            android:key="tieba_sgjz"
+            app:title="@string/tieba_sgjz"
+            app:summary="我们爱护动物，我们从不盗墓"/>
+
+        <Preference
+            android:icon="@drawable/open"
+            android:key="uesp"
+            app:title="@string/UESP_Wiki"
+            app:summary="UESPWiki - The Unofficial Elder Scrolls Pages"/>
+
+        <Preference
+            android:icon="@drawable/open"
+            android:key="nexus"
+            app:title="@string/Nexus_Mods"
+            app:summary="Nexus mods and community"/>
+
+        <Preference
+            android:icon="@drawable/open"
+            android:key="thuum"
+            app:title="@string/Thuum.org"
+            app:summary="Thuum.org - The Dragon Language Dictionary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

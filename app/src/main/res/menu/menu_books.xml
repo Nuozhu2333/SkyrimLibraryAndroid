@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.nuozhu.skyrimlibrary.BooksActivity">
+
+    <item
+        android:id="@+id/info"
+        android:title="@string/book_info"
+        android:icon="@drawable/info"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/previous_book"
+        android:title="@string/previous_book"
+        android:icon="@drawable/previous"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/next_book"
+        android:title="@string/next_book"
+        android:icon="@drawable/next"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/font_size"
+        android:title="@string/font_size"
+        android:icon="@drawable/font_size"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/share"
+        android:title="@string/share"
+        android:icon="@drawable/share"
+        app:showAsAction="never" />
+</menu>
