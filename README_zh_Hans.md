@@ -1,6 +1,4 @@
 [![](https://img.shields.io/github/release/Nuozhu2333/SkyrimLibraryAndroid?style=for-the-badge)](https://github.com/Nuozhu2333/SkyrimLibraryAndroid/releases/latest)
-[![](https://img.shields.io/github/downloads/Nuozhu2333/SkyrimLibraryAndroid/total?style=for-the-badge)](https://github.com/Nuozhu2333/SkyrimLibraryAndroid/releases)
-[![](https://img.shields.io/github/stars/Nuozhu2333/SkyrimLibraryAndroid?style=for-the-badge)](https://github.com/Nuozhu2333/SkyrimLibraryAndroid)
 [![](https://img.shields.io/github/issues/Nuozhu2333/SkyrimLibraryAndroid?style=for-the-badge)](https://github.com/Nuozhu2333/SkyrimLibraryAndroid/issues)
 
 [English](https://github.com/Nuozhu2333/SkyrimLibraryAndroid/blob/master/README.md) | 简体中文 | [繁體中文](https://github.com/Nuozhu2333/SkyrimLibraryAndroid/blob/master/README_zh_Hant.md)
