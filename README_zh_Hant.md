@@ -3,7 +3,7 @@
 [![](https://img.shields.io/github/stars/Nuozhu2333/SkyrimLibraryAndroid?style=for-the-badge)](https://github.com/Nuozhu2333/SkyrimLibraryAndroid)
 [![](https://img.shields.io/github/issues/Nuozhu2333/SkyrimLibraryAndroid?style=for-the-badge)](https://github.com/Nuozhu2333/SkyrimLibraryAndroid/issues)
 
-[English](https://github.com/Nuozhu2333/SkyrimLibraryAndroid/blob/main/README.md) | [简体中文](https://github.com/Nuozhu2333/SkyrimLibraryAndroid/blob/main/README_zh_Hans.md) | 繁體中文
+[English](https://github.com/Nuozhu2333/SkyrimLibraryAndroid/blob/master/README.md) | [简体中文](https://github.com/Nuozhu2333/SkyrimLibraryAndroid/blob/master/README_zh_Hans.md) | 繁體中文
 
 # 天際圖書館 Android 程式
 **此倉庫為天際圖書館 Android 應用程式。天際圖書館主項目請訪問 [Skyrim Library](https://github.com/Nuozhu2333/SkyrimLibrary/).**
