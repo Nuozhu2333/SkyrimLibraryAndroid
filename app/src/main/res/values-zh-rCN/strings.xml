@@ -106,7 +106,8 @@
     <string name="update_log">更新日志</string>
     <string name="update_log_des">查看更新日志以了解新功能</string>
     <string name="update_log_content">
-        1. UI优化。
+        1. 修复Bug。
+        2. 适配 API 37.
     </string>
     <string name="references">参考资料</string>
     <string name="references_des">天际书库的开发参考了这些内容</string>

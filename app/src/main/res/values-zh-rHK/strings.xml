@@ -106,7 +106,8 @@
     <string name="update_log">更新日誌</string>
     <string name="update_log_des">查看更新日誌以了解新功能</string>
     <string name="update_log_content">
-        1. UI改進。
+        1. 修復Bug。
+        2. 適配 API 37.
     </string>
     <string name="references">參考資料</string>
     <string name="references_des">天際圖書館的開發參考了以下內容</string>

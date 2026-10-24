@@ -31,6 +31,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:backgroundTint="?attr/colorOnSurfaceInverse"
                 android:clickable="true"
                 android:focusable="true"
                 android:layout_margin="@dimen/general_margin">
@@ -62,6 +63,7 @@
                             android:layout_width="30sp"
                             android:layout_height="30sp"
                             android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                            android:backgroundTint="?attr/colorOnSurfaceInverse"
                             app:cardCornerRadius="15sp"
                             app:cardElevation="0dp"
                             app:strokeWidth="0dp">
@@ -94,6 +96,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:foreground="?android:attr/selectableItemBackground"
+                android:backgroundTint="?attr/colorOnSurfaceInverse"
                 android:clickable="true"
                 android:focusable="true"
                 android:layout_margin="@dimen/general_margin">
@@ -125,6 +128,7 @@
                             android:layout_width="30sp"
                             android:layout_height="30sp"
                             android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                            android:backgroundTint="?attr/colorOnSurfaceInverse"
                             app:cardCornerRadius="15sp"
                             app:cardElevation="0dp"
                             app:strokeWidth="0dp">
