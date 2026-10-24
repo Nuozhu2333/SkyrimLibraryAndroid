@@ -2,7 +2,7 @@
     <string name="app_name">Skyrim Library</string>
     <string name="search">Search</string>
     <string name="notice">Notice</string>
-    <string name="notice_content">Skyrim Library 2.0.1 has been released.
+    <string name="notice_content">Skyrim Library 2.0.2 has been released.
         \nPlease check \"Settings - About Skyrim Library\" for details.
     </string>
     <string name="notice_action">Go to \"About Skyrim Library\"</string>
@@ -83,7 +83,7 @@
     <string name="import_content">Import Content</string>
     <string name="import_content_des">Import your own books from a JSON file</string>
     <string name="about">About Skyrim Library</string>
-    <string name="version">Version: 2.0.3 (7)</string>
+    <string name="version">Version: 2.0.2 (6)</string>
     <string name="developer">Developer</string>
     <string name="nuozhu">Nuozhu</string>
     <string name="contact">Contact Me</string>
@@ -101,7 +101,7 @@
     <string name="update_log">Update Log</string>
     <string name="update_log_des">Check the update log for new features</string>
     <string name="update_log_content">
-        1. Bug fix.
+        1. Improved UI.
         2. Target API 37.
     </string>
     <string name="references">References</string>

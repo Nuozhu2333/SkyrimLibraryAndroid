@@ -2,7 +2,7 @@
     <string name="app_name">天際圖書館</string>
     <string name="search">搜尋</string>
     <string name="notice">公告</string>
-    <string name="notice_content">天際圖書館2.0.1已經發佈。
+    <string name="notice_content">天際圖書館2.0.2已經發佈。
         \n請在「設定-關於天際圖書館」中查看詳情。
     </string>
     <string name="notice_action">轉到「關於天際圖書館」</string>
@@ -106,7 +106,7 @@
     <string name="update_log">更新日誌</string>
     <string name="update_log_des">查看更新日誌以了解新功能</string>
     <string name="update_log_content">
-        1. 修復Bug。
+        1. UI改進。
         2. 適配 API 37.
     </string>
     <string name="references">參考資料</string>

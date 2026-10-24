@@ -2,7 +2,7 @@
     <string name="app_name">天际书库</string>
     <string name="search">搜索</string>
     <string name="notice">公告</string>
-    <string name="notice_content">天际书库2.0.1已经发布。
+    <string name="notice_content">天际书库2.0.2已经发布。
         \n请在“设置-关于天际书库”中查看详情。
     </string>
     <string name="notice_action">转到“关于天际书库”</string>
@@ -106,7 +106,7 @@
     <string name="update_log">更新日志</string>
     <string name="update_log_des">查看更新日志以了解新功能</string>
     <string name="update_log_content">
-        1. 修复Bug。
+        1. UI优化。
         2. 适配 API 37.
     </string>
     <string name="references">参考资料</string>
