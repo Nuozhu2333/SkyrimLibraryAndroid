@@ -88,7 +88,7 @@
     <string name="import_content">导入内容</string>
     <string name="import_content_des">导入内容以支持更多书籍</string>
     <string name="about">关于天际书库</string>
-    <string name="version">版本：2.0.1 (5)</string>
+    <string name="version">版本：2.0.2 (6)</string>
     <string name="developer">开发者</string>
     <string name="nuozhu">糯竹</string>
     <string name="contact">联系我</string>
@@ -106,9 +106,7 @@
     <string name="update_log">更新日志</string>
     <string name="update_log_des">查看更新日志以了解新功能</string>
     <string name="update_log_content">
-        1. 新增了阅读页沉浸模式。
-        \n2. 新增了繁体中文（中国香港）和英文支持。
-        \n3. 现在可以使用测试书籍。
+        1. UI优化。
     </string>
     <string name="references">参考资料</string>
     <string name="references_des">天际书库的开发参考了这些内容</string>

@@ -88,7 +88,7 @@
     <string name="import_content">匯入內容</string>
     <string name="import_content_des">匯入內容以支援更多書籍</string>
     <string name="about">關於天際書庫</string>
-    <string name="version">版本：2.0.1 (5)</string>
+    <string name="version">版本：2.0.2 (6)</string>
     <string name="developer">開發者</string>
     <string name="nuozhu">糯竹</string>
     <string name="contact">聯絡我</string>
@@ -106,9 +106,7 @@
     <string name="update_log">更新日誌</string>
     <string name="update_log_des">查看更新日誌以了解新功能</string>
     <string name="update_log_content">
-        1. 新增了閱讀頁沉浸模式。
-        \n2. 新增了繁體中文（中國香港）和英文支援。
-        \n3. 現在可以使用測試書籍。
+        1. UI改進。
     </string>
     <string name="references">參考資料</string>
     <string name="references_des">天際圖書館的開發參考了以下內容</string>

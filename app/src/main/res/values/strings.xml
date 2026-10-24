@@ -83,7 +83,7 @@
     <string name="import_content">Import Content</string>
     <string name="import_content_des">Import your own books from a JSON file</string>
     <string name="about">About Skyrim Library</string>
-    <string name="version">Version: 2.0.1 (5)</string>
+    <string name="version">Version: 2.0.2 (6)</string>
     <string name="developer">Developer</string>
     <string name="nuozhu">Nuozhu</string>
     <string name="contact">Contact Me</string>
@@ -101,9 +101,7 @@
     <string name="update_log">Update Log</string>
     <string name="update_log_des">Check the update log for new features</string>
     <string name="update_log_content">
-        1. Added immersive mode for the reading page.
-        \n2. Added support for Traditional Chinese (Hong Kong SAR) and English.
-        \n3. Test books are now available.
+        1. Improved UI.
     </string>
     <string name="references">References</string>
     <string name="references_des">Skyrim Library\'s development references these resources</string>
